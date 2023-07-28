@@ -1,0 +1,81 @@
+1. Insert both jQuery library and the jquery-background-slideshow.js script into the HTML document.
+
+1
+<script src="/path/to/cdn/jquery.min.js"></script>
+2
+<script src="/path/to/src/jquery-background-slideshow.js"></script>
+2. Define an array of images for the backgrounds.
+
+1
+var imgList = [
+2
+"1.jpg",
+3
+"2.jpg",
+4
+"3.jpg",
+5
+"4.jpg",
+6
+"5.jpg"
+7
+]
+3. Call the function to enable the background slideshow.
+
+1
+$("body").background<a href="https://www.jqueryscript.net/slideshow/">Slideshow</a>({
+2
+images: imgList
+3
+})
+4. Determine the transition delay. Default: 5 seconds.
+
+1
+$("body").backgroundSlideshow({
+2
+images: imgList
+3
+delay: 3000
+4
+})
+5. Determine the duration of the transition effect. Default: 3 seconds.
+
+1
+$("body").backgroundSlideshow({
+2
+images: imgList
+3
+transitionDuration: 5000
+4
+})
+6. Determine whether to apply the position: fixed property to the parent container. Default: position: absolute.
+
+1
+$("body").backgroundSlideshow({
+2
+images: imgList
+3
+fixed:true
+4
+})
+7. Callback functions which will be fired before/after transition.
+
+view source
+1
+$("body").backgroundSlideshow({
+2
+images: imgList
+3
+onBeforeTransition:function (index) {
+4
+console.log("before transition", index)
+5
+},
+6
+onAfterTransition:function (index) {
+7
+console.log("after transition", index)
+8
+},
+9
+})

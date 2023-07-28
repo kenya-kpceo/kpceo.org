@@ -1,0 +1,980 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+        integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+
+    <link rel="stylesheet" type="text/css" href="hcss.css" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="KPCEOLOGO" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="kpceologo" type="image/x-icon">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="stylesheet" href="style.css">
+
+    <title>KPCEO</title>
+
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="container">
+
+            <ol class="organizational-chart">
+                <li>
+                    <div style="background-color: #fca858; width: calc((60% / 1) - 2em - 4px);">
+                        <h1><a href="">BOARD OF DIRECTORS</a></h1>
+                    </div>
+                    <ol>
+                        <li>
+
+                        </li>
+                    </ol>
+                </li>
+                <li>
+                    <div>
+                        <h2><a href="">ADMINISTRATION</a></h2>
+                    </div>
+
+                    <ol>
+                        <li>
+                            <div>
+                                <h3>HR</h3>
+                            </div>
+                            <ol>
+
+                        </li>
+                        <li>
+                            <div>
+                                <h4>VOLUNTEER</h4>
+                            </div>
+                        </li>
+                    </ol>
+                </li>
+                <li>
+                    <div>
+                        <h3>PUBLIC RELATIONS</h3>
+                    </div>
+                    <ol>
+
+                        <li>
+                            <div>
+                                <h4>COORDINATION</h4>
+                            </div>
+                            <ol>
+                                <li>
+                                    <div>
+                                        <h4>SOCIAL DEVELOPMENT</h4>
+                                    </div>
+                                </li>
+
+                            </ol>
+                        </li>
+                    </ol>
+                </li>
+                <li>
+                    <div>
+                        <h3>FINANCE DEPARTMENT</h3>
+                    </div>
+                    <ol>
+                        <li>
+                            <div>
+                                <h4>FUNDS/REPORTS</h4>
+                            </div>
+                        </li>
+
+                    </ol>
+                </li>
+                <li>
+                    <div>
+                        <h3>PROGRAM MANAGEMENT</h3>
+                    </div>
+                    <ol>
+                        <li>
+                            <div>
+                                <h4>EVENTS/CALENDAR OF EVENTS</h4>
+                            </div>
+                        </li>
+                    </ol>
+                </li>
+                <li>
+                    <div>
+                        <h3>OPERATIONS MANAGER</h3>
+                    </div>
+                    <ol>
+                        <li>
+                            <div>
+                                <h4>OPERATIONS</h4>
+                            </div>
+                        </li>
+                    </ol>
+                </li>
+            </ol>
+
+
+        </div>
+    </div>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        /* Style inputs */
+        input[type=text],
+        select,
+        textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+        }
+
+        input[type=submit] {
+            background-color: #04AA6D;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+            background-color: #45a049;
+        }
+
+        /* Style the container/contact section */
+        .container {
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 10px;
+        }
+
+        /* Create two columns that float next to eachother */
+        .column {
+            float: left;
+            width: 50%;
+            margin-top: 6px;
+            padding: 20px;
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 600px) {
+
+            .column,
+            input[type=submit] {
+                width: 100%;
+                margin-top: 0;
+            }
+        }
+
+        .topnav {
+            float: inline-end;
+            padding: 14px 26px;
+        }
+
+        .navbar {
+            overflow: hidden;
+            background-color: #333;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 0px 36px;
+        }
+
+        .navbar a {
+            float: left;
+            font-size: 16px;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .dropdown {
+            float: left;
+            overflow: hidden;
+        }
+
+        .dropdown .dropbtn {
+            font-size: 16px;
+            border: none;
+            outline: none;
+            color: rgb(211, 206, 206);
+            padding: 14px 29px;
+            background-color: inherit;
+            font-family: inherit;
+            margin: 0;
+        }
+
+        .navbar a:hover,
+        .dropdown:hover .dropbtn {
+            background-color: red;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            float: none;
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .column3 {
+
+            width: 20%;
+            float: left;
+        }
+
+        .column4 {
+            width: 40%;
+            float: left;
+        }
+
+        .container2 {
+            padding: 10px;
+            background-color: #383232;
+            width: 80%;
+        }
+
+        @media screen and (max-width:600px) {
+            .column3 {
+                width: 100%;
+            }
+        }
+
+        .container2 {
+            padding: 20px;
+            background-color: #685c5c;
+        }
+
+        .container1 {
+            padding: 20px;
+
+        }
+
+        .copyright {
+            text-align: center;
+            background-color: rgb(148, 115, 91);
+        }
+
+        .fa {
+            padding: 0px;
+            font-size: 15px;
+            width: 50px;
+            text-align: center;
+            color: darkcyan;
+            text-decoration: none;
+            margin: 5px 2px;
+        }
+
+        .fa:hover {
+            opacity: 0.7;
+        }
+
+        .fa-facebook {
+            background: #3B5998;
+            color: white;
+        }
+
+        .fa-twitter {
+            background: #55ACEE;
+            color: white;
+        }
+
+        .fa-google {
+            background: #dd4b39;
+            color: white;
+        }
+
+        .fa-linkedin {
+            background: #007bb5;
+            color: white;
+        }
+
+        .fa-youtube {
+            background: #bb0000;
+            color: white;
+        }
+
+        .fa-instagram {
+            background: #125688;
+            color: white;
+        }
+
+        .fa-pinterest {
+            background: #cb2027;
+            color: white;
+        }
+
+        .fa-snapchat-ghost {
+            background: #fffc00;
+            color: white;
+            text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        }
+
+        .fa-skype {
+            background: #00aff0;
+            color: white;
+        }
+
+        .fa-android {
+            background: #a4c639;
+            color: white;
+        }
+
+        .fa-dribbble {
+            background: #ea4c89;
+            color: white;
+        }
+
+        .fa-vimeo {
+            background: #45bbff;
+            color: white;
+        }
+
+        .fa-tumblr {
+            background: #2c4762;
+            color: white;
+        }
+
+        .fa-vine {
+            background: #00b489;
+            color: white;
+        }
+
+        .fa-foursquare {
+            background: #45bbff;
+            color: white;
+        }
+
+        .fa-stumbleupon {
+            background: #eb4924;
+            color: white;
+        }
+
+        .fa-flickr {
+            background: #f40083;
+            color: white;
+        }
+
+        .fa-yahoo {
+            background: #430297;
+            color: white;
+        }
+
+        .fa-soundcloud {
+            background: #ff5500;
+            color: white;
+        }
+
+        .fa-reddit {
+            background: #ff5700;
+            color: white;
+        }
+
+        .fa-rss {
+            background: #ff6600;
+            color: white;
+        }
+
+        *,
+        *:before,
+        *:after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #31373a;
+            font-family: 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+            height: 100px;
+        }
+
+        #wrapper {
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 80em;
+        }
+
+        #container {
+            float: left;
+            padding: 1em;
+            width: 100%;
+        }
+
+        ol.organizational-chart,
+        ol.organizational-chart ol,
+        ol.organizational-chart li,
+        ol.organizational-chart li>div {
+            position: relative;
+        }
+
+        ol.organizational-chart,
+        ol.organizational-chart ol {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        ol.organizational-chart {
+            text-align: center;
+        }
+
+        ol.organizational-chart ol {
+            padding-top: 1em;
+        }
+
+        ol.organizational-chart ol:before,
+        ol.organizational-chart ol:after,
+        ol.organizational-chart li:before,
+        ol.organizational-chart li:after,
+        ol.organizational-chart>li>div:before,
+        ol.organizational-chart>li>div:after {
+            background-color: #b7a6aa;
+            content: '';
+            position: absolute;
+        }
+
+        ol.organizational-chart ol>li {
+            padding: 1em 0 0 1em;
+        }
+
+        ol.organizational-chart>li ol:before {
+            height: 1em;
+            left: 50%;
+            top: 0;
+            width: 3px;
+        }
+
+        ol.organizational-chart>li ol:after {
+            height: 3px;
+            left: 3px;
+            top: 1em;
+            width: 50%;
+        }
+
+        ol.organizational-chart>li ol>li:not(:last-of-type):before {
+            height: 3px;
+            left: 0;
+            top: 2em;
+            width: 1em;
+        }
+
+        ol.organizational-chart>li ol>li:not(:last-of-type):after {
+            height: 100%;
+            left: 0;
+            top: 0;
+            width: 3px;
+        }
+
+        ol.organizational-chart>li ol>li:last-of-type:before {
+            height: 3px;
+            left: 0;
+            top: 2em;
+            width: 1em;
+        }
+
+        ol.organizational-chart>li ol>li:last-of-type:after {
+            height: 2em;
+            left: 0;
+            top: 0;
+            width: 3px;
+        }
+
+        ol.organizational-chart li>div {
+            background-color: #fff;
+            border-radius: 3px;
+            min-height: 2em;
+            padding: 0.5em;
+        }
+
+        /* PRIMARY */
+        ol.organizational-chart>li>div {
+            background-color: #6a8351;
+            margin-right: 1em;
+        }
+
+        ol.organizational-chart>li>div:before {
+            bottom: 2em;
+            height: 3px;
+            right: -1em;
+            width: 1em;
+        }
+
+        ol.organizational-chart>li>div:first-of-type:after {
+            bottom: 0;
+            height: 2em;
+            right: -1em;
+            width: 3px;
+        }
+
+        ol.organizational-chart>li>div+div {
+            margin-top: 1em;
+        }
+
+        ol.organizational-chart>li>div+div:after {
+            height: calc(100% + 1em);
+            right: -1em;
+            top: -1em;
+            width: 3px;
+        }
+
+        /* SECONDARY */
+        ol.organizational-chart>li>ol:before {
+            left: inherit;
+            right: 0;
+        }
+
+        ol.organizational-chart>li>ol:after {
+            left: 0;
+            width: 100%;
+        }
+
+        ol.organizational-chart>li>ol>li>div {
+            background-color: #83e4e2;
+        }
+
+        /* TERTIARY */
+        ol.organizational-chart>li>ol>li>ol>li>div {
+            background-color: #fd6470;
+        }
+
+        /* QUATERNARY */
+        ol.organizational-chart>li>ol>li>ol>li>ol>li>div {
+            background-color: #fca858;
+        }
+
+        /* QUINARY */
+        ol.organizational-chart>li>ol>li>ol>li>ol>li>ol>li>div {
+            background-color: #fddc32;
+        }
+
+        /* MEDIA QUERIES */
+        @media only screen and (min-width: 64em) {
+
+            ol.organizational-chart {
+                margin-left: -1em;
+                margin-right: -1em;
+            }
+
+            /* PRIMARY */
+            ol.organizational-chart>li>div {
+                display: inline-block;
+                float: none;
+                margin: 0 1em 1em 1em;
+                vertical-align: bottom;
+            }
+
+            ol.organizational-chart>li>div:only-of-type {
+                margin-bottom: 0;
+                width: calc((80% / 1) - 2em - 4px);
+            }
+
+            ol.organizational-chart>li>div:first-of-type:nth-last-of-type(2),
+            ol.organizational-chart>li>div:first-of-type:nth-last-of-type(2)~div {
+                width: calc((100% / 2) - 2em - 4px);
+            }
+
+            ol.organizational-chart>li>div:first-of-type:nth-last-of-type(3),
+            ol.organizational-chart>li>div:first-of-type:nth-last-of-type(3)~div {
+                width: calc((100% / 3) - 2em - 4px);
+            }
+
+            ol.organizational-chart>li>div:first-of-type:nth-last-of-type(4),
+            ol.organizational-chart>li>div:first-of-type:nth-last-of-type(4)~div {
+                width: calc((100% / 4) - 2em - 4px);
+            }
+
+            ol.organizational-chart>li>div:first-of-type:nth-last-of-type(5),
+            ol.organizational-chart>li>div:first-of-type:nth-last-of-type(5)~div {
+                width: calc((100% / 5) - 2em - 4px);
+            }
+
+            ol.organizational-chart>li>div:before,
+            ol.organizational-chart>li>div:after {
+                bottom: -1em !important;
+                top: inherit !important;
+            }
+
+            ol.organizational-chart>li>div:before {
+                height: 1em !important;
+                left: 50% !important;
+                width: 3px !important;
+            }
+
+            ol.organizational-chart>li>div:only-of-type:after {
+                display: none;
+            }
+
+            ol.organizational-chart>li>div:first-of-type:not(:only-of-type):after,
+            ol.organizational-chart>li>div:last-of-type:not(:only-of-type):after {
+                bottom: -1em;
+                height: 3px;
+                width: calc(50% + 1em + 3px);
+            }
+
+            ol.organizational-chart>li>div:first-of-type:not(:only-of-type):after {
+                left: calc(50% + 3px);
+            }
+
+            ol.organizational-chart>li>div:last-of-type:not(:only-of-type):after {
+                left: calc(-1em - 3px);
+            }
+
+            ol.organizational-chart>li>div+div:not(:last-of-type):after {
+                height: 3px;
+                left: -2em;
+                width: calc(100% + 4em);
+            }
+
+            /* SECONDARY */
+            ol.organizational-chart>li>ol {
+                display: flex;
+                flex-wrap: nowrap;
+            }
+
+            ol.organizational-chart>li>ol:before,
+            ol.organizational-chart>li>ol>li:before {
+                height: 1em !important;
+                left: 50% !important;
+                top: 0 !important;
+                width: 3px !important;
+            }
+
+            ol.organizational-chart>li>ol:after {
+                display: none;
+            }
+
+            ol.organizational-chart>li>ol>li {
+                flex-grow: 1;
+                padding-left: 1em;
+                padding-right: 1em;
+                padding-top: 1em;
+            }
+
+            ol.organizational-chart>li>ol>li:only-of-type {
+                padding-top: 0;
+            }
+
+            ol.organizational-chart>li>ol>li:only-of-type:before,
+            ol.organizational-chart>li>ol>li:only-of-type:after {
+                display: none;
+            }
+
+            ol.organizational-chart>li>ol>li:first-of-type:not(:only-of-type):after,
+            ol.organizational-chart>li>ol>li:last-of-type:not(:only-of-type):after {
+                height: 3px;
+                top: 0;
+                width: 50%;
+            }
+
+            ol.organizational-chart>li>ol>li:first-of-type:not(:only-of-type):after {
+                left: 50%;
+            }
+
+            ol.organizational-chart>li>ol>li:last-of-type:not(:only-of-type):after {
+                left: 0;
+            }
+
+            ol.organizational-chart>li>ol>li+li:not(:last-of-type):after {
+                height: 3px;
+                left: 0;
+                top: 0;
+                width: 100%;
+            }
+
+        }
+    </style>
+</body>
+<br>
+<column>_</column>
+<style>
+    .col_white1_amrc {
+        color: blue;
+    }
+
+    footer {
+        width: 100%;
+        background-color: grey;
+        min-height: 200px;
+        padding: 10px 0px 25px 0px;
+
+    }
+
+    .bb1 {
+        background-color: blue;
+    }
+
+    .pt2 {
+        padding-top: 40px;
+        margin-bottom: 20px;
+
+    }
+
+    footer p {
+        font-size: 13px;
+        color: blue;
+        padding-bottom: 0px;
+        margin-bottom: 8px;
+
+    }
+
+    .mb10 {
+        padding-bottom: 15px;
+
+    }
+
+    .footer_ul_amrc {
+        margin: 0px;
+        list-style-type: none;
+        font-size: 14px;
+        padding: 0px 0px 10px 0px;
+
+    }
+
+    .footer_ul_amrc li {
+        padding: 0px 0px 5px 0px;
+
+    }
+
+    .footer_ul_amrc li a {
+        color: blue;
+
+    }
+
+    .footer_ul_amrc li a:hover {
+        color: rgb(117, 74, 74);
+        text-decoration: none;
+
+    }
+
+    .fleft {
+        float: left;
+
+    }
+
+    .padding-right {
+        padding-right: 10px;
+
+    }
+
+    .footer_ul2_amrc {
+        margin: 0px;
+        list-style-type: none;
+        padding: 0px;
+
+    }
+
+    .footer_ul2_amrc li p {
+        display: table;
+
+    }
+
+    .footer_ul2_amrc li a:hover {
+        text-decoration: none;
+
+    }
+
+    .footer_ul2_amrc li i {
+        margin-top: 5px;
+
+    }
+
+    .bottom_border {
+        border-bottom: 1px solid #323f45;
+        padding-bottom: 20px;
+
+    }
+
+
+
+    .foote_bottom_ul_amrc {
+        list-style-type: none;
+        padding: 0px;
+        display: table;
+        margin-top: 10px;
+        margin-right: auto;
+        margin-bottom: 10px;
+        margin-left: auto;
+    }
+
+    .foote_bottom_ul_amrc li {
+        display: inline;
+
+    }
+
+    .foote_bottom_ul_amrc li a {
+        color: blue;
+        margin: 0 12px;
+
+    }
+
+    .social_footer_ul {
+        display: table;
+        margin: 15px auto 0 auto;
+        list-style-type: none;
+
+    }
+
+    .social_footer_ul li {
+        padding-left: 20px;
+        padding-top: 10px;
+        float: left;
+
+    }
+
+    .social_footer_ul li a {
+        color: black;
+        border: 1px solid rgb(17, 15, 15);
+        padding: 8px;
+        border-radius: 50%;
+
+    }
+
+    .social_footer_ul li i {
+        width: 20px;
+        height: 10px;
+        text-align: center;
+
+    }
+
+    @media screen and (max-width: 600px) {
+
+        .column,
+        input[type=submit] {
+            width: 100%;
+            margin-top: 0;
+        }
+    }
+
+
+    /* Credit to https://bootsnipp.com/snippets/bxDBA */
+</style>
+<!-------------------Footer------------------------->
+<div class="container-fluid padding" id="footer">
+    <div class="row text-left">
+        <div class="col-md-3">
+            <hr class="light">
+            <h5>About Us</h5>
+            <hr class="light">
+            <ul>
+                <li> <a class="footer-link" href="/service">Meet the service</a></li>
+                <li> <a class="footer-link" href="/">Partners</a></li>
+                <li> <a class="footer-link" href="/">Location</a></li>
+                <li> <a class="footer-link" href="/">Our Projects</a></li>
+                <li> <a class="footer-link" href="/">Team</a></li>
+            </ul>
+        </div>
+
+        <div class="col-md-3">
+            <hr class="light">
+            <h5>counties of operation</h5>
+            <hr class="light">
+            <ul>
+                <li> <a class="footer-link" href="/">Nairobi</a></li>
+                <li> <a class="footer-link" href="/">Kajiado</a></li>
+                <li> <a class="footer-link" href="/">Muranga</a></li>
+                <li> <a class="footer-link" href="/">Machakos</a></li>
+                <li> <a class="footer-link" href="/">Bungoma</a></li>
+                <li> <a class="footer-link" href="/">Siaya</a></li>
+                <li> <a class="footer-link" href="/">Homabay</a></li>
+                <li> <a class="footer-link" href="/">Mombasa</a></li>
+            </ul>
+        </div>
+        <div class="col-md-3">
+            <hr class="light">
+            <h5>Beneficiary Category</h5>
+            <hr class="light">
+            <ul>
+                <li> <a class="footer-link" href="/">People Living With Disability</a></li>
+                <li> <a class="footer-link" href="/">Needy Children</a></li>
+                <li> <a class="footer-link" href="/">Couples</a></li>
+                <li> <a class="footer-link" href="/">Youths</a></li>
+                <li> <a class="footer-link" href="/">Pastors</a></li>
+            </ul>
+        </div>
+
+        <div class="col-md-3">
+            <hr class="light">
+            <h5>Reach us</h5>
+            <hr class="light">
+            <ul>
+                <li> <a class="footer-link" target="_blank" href="#">Facebook
+                    </a></li>
+                <li> <a class="footer-link" target="_blank" href="h#">Twitter</a></li>
+                <li> <a class="footer-link" target="_blank" href="#"> WhatsApp us</a></li>
+                <li> <a class="footer-link" target="_blank" href="#" target="_blank">YouTube</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-------------------Socket Section------------------------->
+    <div class="col-12 socket">
+        <hr class="light">
+        <h5>&copy; www.kpceo.org 2022</h5>
+    </div>
+</div>
+<hr class="light-100">
+</div>
+
+</div>
+</div>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+<script src="https://use.fontawesome.com/releases/v5.0.8/js/all/js"></script>
+
+<script src="js/all/js"></script>
+</body>
+
+</html>
